@@ -1,0 +1,67 @@
+.textBubble{
+    background: #F3F3F3;
+    color: white;
+    display: inline-block;
+    border-radius: 20px;
+    max-width: 80%;
+    padding: 5px 20px;
+  }
+  
+  .text{
+    font-size: 1.1em;
+    width: 100%;
+    float: left;
+    word-wrap: break-word;
+    letter-spacing: 0;
+  }
+  
+  .messageWrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    margin-top: 3px;
+  }
+  
+  .sentText{
+    color: #828282;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    letter-spacing: 0.3px;
+  }
+  
+  .selfPadding{
+    padding-right: 10px;
+  }
+
+  .selfText{
+    color: white;
+  }
+
+  .justifyStart{
+    justify-content: flex-start;
+  }
+  
+  .otherPadding{
+    padding-left: 10px;
+  } 
+
+  .otherText{
+    color: #353535;
+  }
+  
+  .justifyEnd{
+    justify-content: flex-end;
+  }
+
+  .selfColor{
+    background: #1982FC;
+  }
+  
+  .otherColor{
+    background: #F3F3F3;
+  }
+
+  .text img{
+    vertical-align: middle;
+  }

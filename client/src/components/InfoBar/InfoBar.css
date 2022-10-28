@@ -1,0 +1,28 @@
+.topBorder{
+    background: rgb(0, 100, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px 4px 0 0;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .onlineSide{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    flex: 0.5;
+  }
+  
+  .closeSide{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    flex: 0.5;
+  }
+  
+  .onlineIcon{
+    margin-right: 5%;
+  }

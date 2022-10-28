@@ -1,0 +1,74 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  #root{
+    height: 100vh;
+  }
+  
+  .backgroundWrapper{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .moduleWrapper{
+    width: 22%;
+  }
+  
+  .initFields{
+    width: 100%;
+    border-radius: 0;
+    padding: 15px 20px;
+  }
+  
+  .header{
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    font-size: 2.5em;
+  }
+  
+  .joinButton{
+      background: rgb(0, 55, 255);
+      color: white !important;
+      cursor: pointer;
+      text-decoration: none;
+      padding: 20px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      display: inline-block;
+  }
+
+  .joinButton:hover{
+    background: rgb(0, 100, 255);
+    transition: 0.3s ease-in;
+  }
+  
+  .margin{
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px){
+    .backgroundWrapper{
+      height: 100%;
+    }
+  
+    .moduleWrapper{
+      width: 90%;
+    }
+  }
+  
+  joinButton:focus{
+    outline: 0;
+  }
